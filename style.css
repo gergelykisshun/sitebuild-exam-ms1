@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+a {
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+  
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+  
+textarea {
+    resize: none;
+}
+  
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+  
+  /*CSS RESET OVER*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {   
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#first {
+    background-color: #efd592;
+}
+
+#first button {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+#first #btn-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #242d38;
+    transform: translate(-50%, -50%);
+    color: #efd592;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#first #btn-2 {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: 200px;
+    height: 60px;
+    border: 6px solid #242d38;
+    color: #242d38;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+
+
+#second {
+    background-color: #4343f9;
+}
+
+#second button {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    width: 200px;
+    height: 60px;
+    background-color: #4343f9;
+    box-shadow: 0 0 20px rgb(54, 54, 54);
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 21px;
+    font-weight: 400;
+}
+
